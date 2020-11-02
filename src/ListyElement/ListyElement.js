@@ -194,7 +194,6 @@ export default class ListyElement {
             tempLi.innerHTML = item;
 
             this._itemsListList.appendChild(tempLi);
-            console.log('THE ITEM: ', item)
 
         });
     }

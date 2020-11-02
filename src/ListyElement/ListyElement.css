@@ -1,4 +1,6 @@
 
+/* This CSS file is very redundant and doesn't make use of hierarchy and multiple classes per element etc */
+
 .listyElement {
     background: white;
 }

@@ -29,9 +29,6 @@ export default class Listy {
     * 
     */
     addItem(item) {
-
-        console.log('Listy.addItem: ', item);
-
         if (typeof(item) == 'string') this._theArray.push(item);
     }
 
