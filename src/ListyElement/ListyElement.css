@@ -1,0 +1,185 @@
+
+.listyElement {
+    background: white;
+}
+
+.mainContainer {
+    display:flex;
+    flex-direction: column;
+    flex: grow;
+
+    width: 20rem;
+    height: 24rem;
+
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+
+    padding: 1rem;
+
+}
+
+.positionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    width: 18rem;
+    height: 4rem;
+
+    padding: 1rem;
+
+}
+
+.positionContainerInput {
+    display: flex;
+    align-self: center;
+
+    width: 2rem;
+    height: 2rem;
+
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+
+    text-align: center;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.positionContainerLabel {
+    display: flex;
+    align-self: center;
+
+    width: 12rem;
+    
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.itemsListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+
+    width: 20rem;
+    height: 20rem;
+
+    background: lightpurple;
+}
+
+.itemsListContainerTop {
+    display: flex;
+    justify-content: space-between;
+
+    min-height: 4rem;
+    padding: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.itemsListContainerMiddle {
+    display: flex;
+    justify-content: space-evenly;
+    
+    min-height: 4rem;
+
+    padding: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.itemsListContainerBottom {
+    display: flex;
+    justify-content: space-evenly;
+    
+    min-height: 4rem;
+
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+.itemsListInput {
+    display: flex;
+    align-self: center;
+
+    width: 12rem;
+    height: 2rem;
+
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.itemsListAddButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    width: 3.50rem;
+    height: 2.50rem;
+
+    background: white;
+
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+    
+
+    text-align: center;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+    
+}
+
+.itemsListList {
+    display: flex;
+    flex-direction: column;
+    flex: grow;
+
+    width: 16rem;
+    min-height: 4rem;
+
+    background: white;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+
+    overflow-y: scroll;
+}
+
+.listItem {
+    background: white;
+}
+
+.itemsListResetButton {
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+
+    background: white;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.itemsListSortButton {
+    font-family: "Helvetica", "Arial";
+    font-size: 1rem;
+    font-weight: bold;
+
+    background: white;
+
+    border: solid 0.2rem;
+    border-radius: 0.2rem;
+}

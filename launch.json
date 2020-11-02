@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/main.html",
+            "webRoot": "./wwwroot"
+        },
+        {
+            "name": "Launch main.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "./main.html"
+        }
+    ]
+}
